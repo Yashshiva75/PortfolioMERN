@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon Backend/app.js ",
+    "start": "nodemon backend/app.js",
+    "build": "npm install && npm install --prefix yashshiva && npm run build --prefix yashshiva"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9"
+  }
+}
