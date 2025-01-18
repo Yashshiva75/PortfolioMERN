@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon Backend/app.js ",
-    "start": "nodemon backend/app.js",
+    "start": "node Backend/app.js",
     "build": "npm install && npm install --prefix yashshiva && npm run build --prefix yashshiva"
   },
   "keywords": [],
